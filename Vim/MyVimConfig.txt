@@ -1,0 +1,24 @@
+"Vim config file"
+
+set mouse=a
+syntax on
+set number
+set cursorline
+:highlight Cursorline cterm=bold ctermbg=black
+set hlsearch
+set ignorecase
+set smartcase
+
+set tabstop =4
+set softtabstop =4
+set shiftwidth =4
+set textwidth =79
+set expandtab
+set autoindent
+
+set showmatch
+
+autocmd BufWritePre *.py :%s/\s\+$//e
+autocmd BufWritePre *.f90 :%s/\s\+$//e
+
+colorscheme koehler
