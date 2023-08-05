@@ -1,0 +1,3 @@
+```
+$ pdflatex <filename>.tex
+```
