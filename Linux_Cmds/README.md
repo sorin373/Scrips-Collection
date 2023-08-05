@@ -14,6 +14,7 @@
 - `find`: Search for files and directories.
 - `chmod`: Change permissions of files and directories.
 - `chown`: Change ownership of files and directories.
+- `code .`: Opens folder in VScode
 
 ## Process Management
 
