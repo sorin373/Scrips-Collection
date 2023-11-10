@@ -1,9 +1,7 @@
 # Java Commands
 
-## Compile and run
+## Build and run
 ```
 $ javac file.java
-```
-```
-java class
+$ java file
 ```
